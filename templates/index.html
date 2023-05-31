@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Отливан Дмитрий</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'styles.css') }}">
+    </head>
+    <body>
+        <div>
+            <h1><b>Отливан Дмитрий</b></h1>
+            <img id="myphoto" src="https://sun1-21.userapi.com/impg/3xHnbB-5_bRB4crhuDPa-3jDQMuTa4f7MgOAmQ/I0mq7JZfRqw.jpg?size=960x1280&quality=95&sign=f221528abee5e7d1a3362d617e9a0966&type=album">
+
+        </div>
+        <div>
+            <h3>Информация из VK</h3>
+            <main>
+                <ul>
+                    <li class="name">Имя - <b>{{name}}</b></li>
+                    <li>Фамилия - <b>{{surname}}</b></li>
+                    <li>ID - <b>{{id}}</b></li>
+                </ul>
+            </main>
+        </div>
+    </body>
+
+</html>
